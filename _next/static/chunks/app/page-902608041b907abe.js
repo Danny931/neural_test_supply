@@ -816,8 +816,8 @@
         let b = [
             {
               img: "/images/insights/insights_1.png",
-              title: "What is AMMO?",
-              description: "AMMO is all about AI-Human Alignment.",
+              title: "What is NeuralChain?",
+              description: "NeuralChain is all about AI-Human Alignment.",
               buttonText: "Read More",
               link: "",
             },
