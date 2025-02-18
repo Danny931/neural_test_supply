@@ -50,12 +50,12 @@
           },
           l = [
             {
-              title: "Product",
-              links: [{ link: "https://fakersai.com", text: "Fakers" }],
+              title: "IDO",
+              links: [{ link: "https://ido.neuralchain.pro", text: "NeuralChain IDO" }],
             },
             {
               title: "Resources",
-              links: [{ link: "https://medium.com/@ammo_ai", text: "Blogs" }],
+              links: [{ link: "/", text: "Blogs" }],
             },
           ],
           o = function () {
@@ -96,7 +96,7 @@
                             children: [
                               (0, s.jsx)("a", {
                                 className: "footer-content-item-social-link",
-                                href: "https://x.com/Ammo_AI",
+                                href: "https://x.com/NeuralChain_bsc",
                                 target: "_blank",
                                 children: (0, s.jsx)(n.default, {
                                   src: "/images/footer/x.svg",
@@ -110,7 +110,7 @@
                               }),
                               (0, s.jsx)("a", {
                                 className: "footer-content-item-social-link",
-                                href: "https://www.linkedin.com/company/ammo-ai/",
+                                href: "",
                                 target: "_blank",
                                 children: (0, s.jsx)(n.default, {
                                   src: "/images/footer/linkin.svg",
@@ -126,7 +126,7 @@
                                 className: "footer-content-item-mail-container",
                                 onClick: () =>
                                   window.open(
-                                    "mailto:official@ammoai.io",
+                                    "mailto:official@neuralchain.pro",
                                     "_blank"
                                   ),
                                 children: [
@@ -141,7 +141,7 @@
                                   }),
                                   (0, s.jsx)("div", {
                                     className: "mail-link-text",
-                                    children: "official@ammoai.io",
+                                    children: "official@neuralchain.pro",
                                   }),
                                 ],
                               }),
@@ -248,15 +248,6 @@
                       }),
                     }),
                     (0, s.jsx)("div", {
-                        className: "pc-nav-item",
-                        children: (0, s.jsx)("a", {
-                          className: "pc-nav-item-text",
-                          href: "https://ido.neuralchain.pro",
-                          target: "_blank",
-                          children: "IDO",
-                        }),
-                    }),
-                    (0, s.jsx)("div", {
                       className: "mobile-nav-menu-item",
                       children: (0, s.jsx)(l(), {
                         href: "/roadmap",
@@ -273,9 +264,9 @@
                       className: "mobile-nav-menu-item",
                       children: (0, s.jsx)("a", {
                         className: "mobile-nav-menu-item-text",
-                        href: "https://fakersai.com",
+                        href: "https://ido.neuralchain.pro",
                         target: "_blank",
-                        children: "Blogs",
+                        children: "IDO",
                       }),
                     }),
                     (0, s.jsxs)("div", {
@@ -289,7 +280,7 @@
                           className: "mobile-nav-contact-us-links",
                           children: [
                             (0, s.jsx)("a", {
-                              href: "https://x.com/Ammo_AI",
+                              href: "https://x.com/NeuralChain_bsc",
                               target: "_blank",
                               children: (0, s.jsx)(n.default, {
                                 src: "/images/header/x_mobile.svg",
@@ -302,7 +293,7 @@
                               }),
                             }),
                             (0, s.jsx)("a", {
-                              href: "https://www.linkedin.com/company/ammo-ai/",
+                              href: "",
                               target: "_blank",
                               children: (0, s.jsx)(n.default, {
                                 src: "/images/header/linkin_mobile.svg",
@@ -318,7 +309,7 @@
                               className: "mail-link-container",
                               onClick: () =>
                                 window.open(
-                                  "mailto:official@ammoai.io",
+                                  "mailto:official@neuralchain.pro",
                                   "_blank"
                                 ),
                               children: [
@@ -333,7 +324,7 @@
                                 }),
                                 (0, s.jsx)("div", {
                                   className: "mail-link-text",
-                                  children: "official@ammoai.io",
+                                  children: "official@neuralchain.pro",
                                 }),
                               ],
                             }),
@@ -400,7 +391,7 @@
                   className: "pc-nav-item",
                   children: (0, s.jsx)("a", {
                     className: "pc-nav-item-text",
-                    href: "https://medium.com/@ammo_ai",
+                    href: "",
                     target: "_blank",
                     children: "Blogs",
                   }),
@@ -409,7 +400,7 @@
                   className: "pc-nav-item",
                   children: (0, s.jsx)("a", {
                     className: "pc-nav-item-text",
-                    href: "https://x.com/Ammo_AI",
+                    href: "https://x.com/NeuralChain_bsc",
                     target: "_blank",
                     children: (0, s.jsx)(n.default, {
                       className: "pc-nav-item-icon",

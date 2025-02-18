@@ -334,8 +334,8 @@
                     "• User - Coin",
                   ],
                   button: {
-                    text: "FakersAI.com",
-                    link: "https://fakersai.com",
+                    text: "Neuralchain IDO",
+                    link: "https://ido.neuralchain.pro",
                   },
                 },
                 {

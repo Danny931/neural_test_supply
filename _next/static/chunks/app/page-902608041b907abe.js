@@ -79,18 +79,6 @@
                   "data-sentry-source-file": "Banner.tsx",
                   "data-sentry-element": "Image",
                 }),
-                (0, s.jsx)("div", {
-                  className: "banner-bg",
-                  children: (0, s.jsx)(r.default, {
-                    src: "/images/banner/background.svg",
-                    alt: "background",
-                    width: 800,
-                    height: 800,
-                    "data-sentry-element": "Image",
-                    "data-sentry-source-file": "Banner.tsx",
-                    "data-sentry-element": "Image",
-                  }),
-                }),
                 (0, s.jsxs)("div", {
                   className: "banner-title-container",
                   children: [
@@ -458,10 +446,10 @@
                 left: e ? "left-[-1%]" : "left-[16%]",
                 scale: c,
                 earthBgVisible: m,
-                link: "https://fakersai.com",
+                link: "https://ido.neuralchain.pro",
               },
               {
-                title: "Fakers - DeFAI versioned Agentic Rednote",
+                title: "NeuralChain - DeFAI versioned Agentic Rednote",
                 className: "world-slider-universe-text",
                 top: e ? "top-[60%]" : "top-[48%]",
                 left: e ? "left-[2%]" : "left-[16%]",
@@ -668,7 +656,7 @@
                         },
                       }),
                       (0, s.jsxs)("a", {
-                        href: "https://fakersai.com",
+                        href: "https://ido.neuralchain.pro",
                         target: "_blank",
                         className: "world-slider-earth-first-screen-node",
                         style: {
@@ -679,13 +667,13 @@
                           (0, s.jsx)("span", {
                             className:
                               "world-slider-earth-first-screen-node-title",
-                            children: "The First AiPP - ",
+                            children: "The First AiPP IDO - ",
                           }),
                           (0, s.jsx)(r.default, {
                             className:
                               "world-slider-earth-first-screen-node-logo",
                             src: "/images/world/earth_first_node_logo.svg",
-                            alt: "fakers",
+                            alt: "NeuralChain",
                             width: 168,
                             height: 40,
                             "data-sentry-element": "Image",
@@ -696,7 +684,7 @@
                             className:
                               "world-slider-earth-first-screen-node-btn",
                             src: "/images/world/earth_first_node_btn.svg",
-                            alt: "fakers",
+                            alt: "NeuralChain",
                             width: 71,
                             height: 32,
                             "data-sentry-element": "Image",
@@ -829,21 +817,21 @@
               title: "What is AMMO?",
               description: "AMMO is all about AI-Human Alignment.",
               buttonText: "Read More",
-              link: "https://medium.com/@ammo_ai/what-is-ammo-aa9d61a32ab3",
+              link: "",
             },
             {
               img: "/images/insights/insights_2.png",
               title: "Our Mission",
               description: "Build the future of AI-Human connection.",
               buttonText: "Read More",
-              link: "https://medium.com/@ammo_ai/the-gravity-of-a-shared-journey-a5eb357c30a4",
+              link: "",
             },
             {
               img: "/images/insights/insights_3.png",
               title: "Our Vision",
               description: "A Symbiotic Future where AI and Human co-exist.",
               buttonText: "Read More",
-              link: "https://medium.com/@ammo_ai/awakening-a-symbiotic-future-forged-by-humanity-elevated-by-ai-481274dcaf1a",
+              link: "",
             },
           ],
           w = function () {
@@ -862,62 +850,6 @@
                   children: (0, s.jsx)("h2", {
                     className: "insights-title",
                     children: "Latest Insights",
-                  }),
-                }),
-                (0, s.jsx)("div", {
-                  className: "insights-list",
-                  children: (0, s.jsx)(l.zW, {
-                    direction: "up",
-                    cascade: !0,
-                    damping: 0.5,
-                    triggerOnce: !0,
-                    "data-sentry-element": "Fade",
-                    "data-sentry-source-file": "Insights.tsx",
-                    "data-sentry-element": "Fade",
-                    children: b.map((e) =>
-                      (0, s.jsxs)(
-                        "div",
-                        {
-                          className: "insights-item",
-                          children: [
-                            (0, s.jsx)(r.default, {
-                              className: "insights-item-img",
-                              src: e.img,
-                              alt: e.title,
-                              width: 376,
-                              height: 240,
-                            }),
-                            (0, s.jsx)("h3", {
-                              className: "insights-item-title",
-                              children: e.title,
-                            }),
-                            (0, s.jsx)("p", {
-                              className: "insights-item-description",
-                              children: e.description,
-                            }),
-                            (0, s.jsxs)("a", {
-                              className: "insights-item-button",
-                              href: e.link,
-                              target: "_blank",
-                              children: [
-                                (0, s.jsx)("span", {
-                                  className: "insights-item-button-text",
-                                  children: e.buttonText,
-                                }),
-                                (0, s.jsx)(r.default, {
-                                  className: "insights-item-button-icon",
-                                  src: "/images/common/dot_arrow_red.svg",
-                                  alt: "dot-arrow",
-                                  width: 16,
-                                  height: 16,
-                                }),
-                              ],
-                            }),
-                          ],
-                        },
-                        e.title
-                      )
-                    ),
                   }),
                 }),
               ],
