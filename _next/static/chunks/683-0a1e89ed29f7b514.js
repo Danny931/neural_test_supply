@@ -110,10 +110,10 @@
                               }),
                               (0, s.jsx)("a", {
                                 className: "footer-content-item-social-link",
-                                href: "",
+                                href: "https://t.me/NeuralChain_bsc",
                                 target: "_blank",
                                 children: (0, s.jsx)(n.default, {
-                                  src: "/images/footer/linkin.svg",
+                                  src: "/images/footer/telegram.svg",
                                   alt: "icon",
                                   width: 48,
                                   height: 48,
@@ -121,29 +121,6 @@
                                   "data-sentry-source-file": "Footer.tsx",
                                   "data-sentry-element": "Image",
                                 }),
-                              }),
-                              (0, s.jsxs)("div", {
-                                className: "footer-content-item-mail-container",
-                                onClick: () =>
-                                  window.open(
-                                    "mailto:official@neuralchain.pro",
-                                    "_blank"
-                                  ),
-                                children: [
-                                  (0, s.jsx)(n.default, {
-                                    src: "/images/footer/mail.svg",
-                                    alt: "icon",
-                                    width: 48,
-                                    height: 48,
-                                    "data-sentry-element": "Image",
-                                    "data-sentry-source-file": "Footer.tsx",
-                                    "data-sentry-element": "Image",
-                                  }),
-                                  (0, s.jsx)("div", {
-                                    className: "mail-link-text",
-                                    children: "official@neuralchain.pro",
-                                  }),
-                                ],
                               }),
                             ],
                           }),

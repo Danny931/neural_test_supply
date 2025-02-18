@@ -82,21 +82,23 @@
                 (0, s.jsxs)("div", {
                   className: "banner-title-container",
                   children: [
-                    (0, s.jsx)("div", {
-                      className: "banner-title-first",
-                      children: "Architectures for",
-                    }),
                     (0, s.jsxs)("div", {
                       className: "banner-title-second",
                       children: [
-                        "Massive ",
-                        (0, s.jsx)(n, {
-                          text: "Multiagent",
-                          "data-sentry-element": "RedAccentText",
-                          "data-sentry-source-file": "Banner.tsx",
-                          "data-sentry-element": "RedAccentText",
+                        "Join ",
+                        (0, s.jsx)("a", {
+                          href: "https://ido.neuralchain.pro/",
+                          target: "_blank", // 在新标签页打开
+                          rel: "noopener noreferrer", // 安全推荐
+                          style: { textDecoration: "none", color: "inherit" }, // 可选：自定义样式
+                          children: (0, s.jsx)(n, {
+                            text: "IDO",
+                            "data-sentry-element": "RedAccentText",
+                            "data-sentry-source-file": "Banner.tsx",
+                            "data-sentry-element": "RedAccentText",
+                          }),
                         }),
-                        " Online",
+                        " Now",
                       ],
                     }),
                   ],
